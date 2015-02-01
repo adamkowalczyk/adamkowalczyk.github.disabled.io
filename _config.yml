@@ -7,10 +7,10 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title1:            Adam
-title2:            Kowalczyk
-tagline:          'Adam Kowalczyk - Web Dev'
-description:      'Web Developer'
+title:            Adam K
+tagline:          'Adam Kowalczyk - Web Developer'
+description:      'Adam Kowalczyk'
+description2:     'Web Developer'
 url:              http://adamkowalczyk.github.io
 baseurl:          /
 
@@ -19,12 +19,12 @@ email:            adamkowalczyk@gmail.com
 
 author:
   name:           'Adam Kowalczyk'
-  url:            https://twitter.com/mdo
+  #url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+#version:          2.1.0
 
 github:
   repo:           https://github.com/adamkowalczyk
