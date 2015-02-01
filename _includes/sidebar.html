@@ -3,7 +3,10 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
-          {{ site.title }}
+          {{ site.title1 }}
+        </a>
+        <a href="{{ site.baseurl }}">
+          {{ site.title2 }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
@@ -26,9 +29,9 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Github</a>
+      <a class="sidebar-nav-item" href="mailto:adamkowalczyk@gmail.com">Email</a>
+      
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
